@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-size:cover;
+	color: black;
+	font-family: calibri;
+	font-size: 100%;
+}
+
+h1 {
+    margin: auto;
+	padding: 15px;
+	text-align: left;
+	font-size: 1.8em;
+	color: grey;
+}
+
+div{
+	width: 55%;
+    margin: auto;
+	background-color: #d1d1d1;
+	opacity: 0.90;
+	height: auto;
+	padding: 25px;
+	font-size: 1.2em;
+}
+
+.impressum{
+	width: 93%;
+	height: 100%;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 10px;
+	background-color: #909090;
+	opacity: 0.8;
+}
+
+.blogHeader{
+	width: 100%;
+	height: auto;
+	font-size: 0.8em;
+	padding: 0;
+}
+
+.blogEntry{
+	height:auto;
+	-webkit-transition: opacity .3s ease-in-out;
+        -moz-transition: opacity .3s ease-in-out;
+        -ms-transition: opacity .3s ease-in-out;
+        -o-transition: opacity ..3s ease-in-out;
+        transition: opacity .3s ease-in-out;
+}
+
+.blogEntry:hover{
+-webkit-transition: opacity .3s ease-in-out;
+        -moz-transition: opacity .3s ease-in-out;
+        -ms-transition: opacity .3s ease-in-out;
+        -o-transition: opacity .3s ease-in-out;
+        transition: opacity .3s ease-in-out;
+	opacity: 0.95;
+}
+
+.img{
+	
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, opacity 2s ease-in-out; /* Safari */
+    transition: width 2s, height 2s, transform 2s, opacity 2s ease-in-out;
+	margin: none;
+	opacity: 0.92;
+	height: 55vh;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img:hover{
+	width: 75%;
+	height: 80vh;
+	opacity: 1.00;
+}
+
+.inline{
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+	height: 55vh;
+	opacity: 0.93;
+}
+
+/*.inline:hover{
+	width: 75%;
+	height: 65vh;
+	opacity: 0.98;
+}*/
+
+iframe{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	border: none;
+	overflow: hidden;	
+}
+
+.standardlist{
+	list-style-position: inside;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+	/*float: left;*/
+	/*position: fixed;*/
+	width = 50%;
+    overflow: hidden;
+	opacity: 1;
+}
+
+.navli{
+	float: left;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover{
+	color:grey;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bloglink{
+	display: block;
+	width:100%;
+	height:100%;
+}
+
+/*<img src="http://files3.porsche.com/filestore.aspx/normal.jpg?pool=multimedia&type=image&id=rd-2013-918-spyder-modelsite-microsite&lang=none&filetype=normal&version=7d322ae3-366d-11e3-bd76-001a64c55f5c" width="100%" height="100%">*/
