@@ -28,14 +28,28 @@ div{
 	font-size: 1.2em;
 }
 
+
+	#index{
+	background-color: #909090;
+	opacity: 0.8;
+	text-align: center;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	bottom: 0;
+	font-size: 0.8em;
+	width: 93%;
+	padding: 10px;
+}
 .impressum{
+	background-color: #909090;
+	opacity: 0.8;	
 	width: 93%;
 	height: 100%;
 	font-size: 0.8em;
 	text-align: center;
 	padding: 10px;
-	background-color: #909090;
-	opacity: 0.8;
+	
 }
 
 .blogHeader{
